@@ -8,6 +8,6 @@ This repo contains Python solutions to the [Advent of Code 2021](https://advento
 
 The input consists of a list of numbers.
 
-When the next number is higher than the presceding number, we count. If not, we do not count. We start counting from the second number in the row of numbers.
+When the next number is higher than the presceding number, we count. If not, we do not count.
 
 The result is the number of times that the next number is higher than the previous number.
