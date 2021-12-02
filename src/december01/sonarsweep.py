@@ -1,5 +1,5 @@
 def main():
-    compute_deeper_readings('december01/depths.txt')
+    compute_deeper_readings('src/december01/depths.txt')
 
 
 def compute_deeper_readings(readings):
