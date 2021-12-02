@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "adventofcode2021"
+version = "0.1.0"
+description = "Solutions in Python for the Advent of Code 2021"
+authors = ["Alex Barten <mail@alexbarten.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^4.0.1"
+pytest = "^6.2.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
