@@ -9,7 +9,7 @@ def compute_submarine_position(course):
     horizontal_position = 0
     depth = 0
     submarine_.penup()
-    submarine_.setposition(-500,350)
+    submarine_.setposition(-500, 350)
     submarine_.pendown()
 
     with open(course, 'r') as navigation_units:
