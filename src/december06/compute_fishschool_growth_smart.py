@@ -6,6 +6,7 @@ def main():
         number_of_fish += value
     print("The number of fish is ", number_of_fish)
 
+
 def fishschool_to_dict(file):
     fishschoolfile = open(file, "r")
     fishschool_line = fishschoolfile.readline().replace("\n", "")
