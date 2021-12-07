@@ -17,6 +17,9 @@ def crabs_to_list(crabsfile):
 
 def determine_mean(crabs):
     mean = int(sum(crabs) / len(crabs))
+    # TODO: Sometimes 1 must be added, but sometimes not, even though the
+    # modulus is closer to the next number in both cases. I need to find
+    # out and improve the logic to set this correctly.
     if sum(crabs) % len(crabs) != 0:
         mean += 1
 
