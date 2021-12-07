@@ -2,9 +2,8 @@ def main():
     crabs = crabs_to_list("src/december07/crabs.txt")
     median = determine_median(crabs)
     steps = calculate_steps(crabs, median)
-    # print(crabs)
-    print(median)
-    print(steps)
+    print("The median is:", median)
+    print("The number of steps for all crabs is:", steps)
 
 
 def crabs_to_list(crabsfile):
