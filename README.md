@@ -35,6 +35,14 @@ Now convert both numbers to decimal, and multiply these. The result is the power
 
 #### Challenge 2 - Verify the life support rating
 
-Read the data from a file with binary numbers. It has 12 columns. Determine for the first bit-column if it is set, or unset. Keep the numbers of each result together in a new set. Now filter again, on the second column, still on the 1 in set 1, and on the zero in set 2.
+Read the data from a file with binary numbers. It has 12 columns. Determine for the first bit-column if it is set, or unset. Keep the numbers of each result together in a new set. Now filter again, on the second column, but from now on, keep the most occurring number for set 1 and the least occurring number for set 2.
 
 In the end we end up with two numbers. Multiply these to get the life support rating.
+
+### December 4
+
+#### Challenge 1 - Play bingo
+
+The input file bingo.txt contains a number of bungo number draws, followed by a large number of filled in bingo boards, each consisting of five by five numbers, horizontally divided by spaces, and vertically by newlines. Between boards there is an empty line.
+
+We need to determine which board wins first, and then add all non-scored numbers on that board, multiplied by the winning number. This is our final score.
